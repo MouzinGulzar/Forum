@@ -1,0 +1,30 @@
+Directory Structure:
+forum
+|- index.php (main page)
+|- threalist.php (page that contains threads of a particular category)
+|- thread.php (page that contains comments of a particular thread)
+|- profile.php (page that displays the user info)
+|- userthreads.php (page that displays all threads of a particular user)
+|- usercomments.php (page that displays all comments of a particular user)
+|- search.php (page that displays the query results)
+|- about.php
+|- contact.php
+|- img (conatains images used in the forum)
+|_ partial
+    |- _dbconnect.php (connects to the database)
+    |- _header.php (header of the forum)
+    |- _footer.php (footer of the forum)
+    |- _getThreads.php (fetchs threads of a particular category from database)
+    |- _getComments.php (fetchs comments of a particular thread from database)
+    |- _getReplies.php (fetchs replies of a particular comment from database)
+    |- _loginModal.php (contains markup of login modal)
+    |- _handleLogin.php (handles the user login activity)
+    |- _signupModal.php (contains markup of signup modal)
+    |- _handleSignup.php (handles the user signup activity)
+    |- _updateModal.php (contains markup of all user update modals)
+    |- _handleUpdate.php (handles every update activity)
+    |- _functions.php (contains functions that files share)
+    |- _functions.js (contains js functions that files share)
+    |_ style.css (constains css that is common between files)
+
+
